@@ -1,0 +1,14 @@
+p {
+    color: red;
+    width: 300px;
+}
+/**
+esto es un comentario dentro de un documento CSS
+*/
+h1 {
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 30px;
+    color: gray;
+}
