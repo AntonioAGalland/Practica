@@ -1,7 +1,0 @@
-{
-    "less.lint.importStatement": "warning",
-    "workbench.list.multiSelectModifier": "alt",
-    "workbench.panel.defaultLocation": "left",
-    "workbench.settings.openDefaultSettings": true,
-    "workbench.reduceMotion": "off"
-}
