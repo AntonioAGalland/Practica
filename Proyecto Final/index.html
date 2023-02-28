@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">   
+    <title>Proyecto Final - Antonio Alejandro Galland</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <h1>Antonio Alejandro Galland</h1>
+                <p>Desarrollador web</p>
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar"> 
+            </form>
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">Todos</a> 
+                <a href="#">Trabajos</a>
+                <a href="#">Poesía</a>
+                <a href="#">Música</a>
+                <a href="#">Creaciones</a>
+            </div>
+        </header>
+
+        <section class="grid" id="grid">
+            <div class="item" 
+                 data-categoria="Trabajos" 
+                 data-etiquetas="trabajos experiencia"
+                 data-descripcion="1."
+            >
+                <div class="item-contenido">
+                    <img src="img/Experiencia-1.png" alt="Trabajos">
+                </div>
+            </div>
+            <div class="item" 
+                 data-categoria="Poesía" 
+                 data-etiquetas="poesía literatura libros prólogo"
+                 data-descripcion="2."
+            >
+                <div class="item-contenido">
+                    <img src="img/Dedicatoria.png" alt="prologo libro">
+                </div>
+            </div>
+             
+            </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+</html>

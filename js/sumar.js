@@ -13,11 +13,6 @@ document.getElementById("sumar").addEventListener("click", function(){
     document.getElementById("contenedorResultado").style.display = "block";
 });
 
-document.getElementById("boton").addEventListener ("click", function(){
-    console.log("hola mundo desde eventlistenner");
-    document.getElementById("demo").innerHTML = "Estamos probando nuestro pimer evento"; 
-}); 
-
 function sumar(a,b) {
     return a+b;
 }
