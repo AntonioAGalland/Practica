@@ -55,7 +55,3 @@ window.addEventListener('load', () => {
         evento.target.id === 'overlay' ? overlay.classList.remove('activo') : '';
     })
 }); 
-
-var modal = document.getElementById("vntRegistro");
-
-var btn = document.getElementById("")
