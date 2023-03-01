@@ -7,17 +7,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/899428fed7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/estilos.css">   
     <title>Proyecto Final - Antonio Alejandro Galland</title>
 </head>
 <body>
-      <!-- -->
+    <!-- -->
     <div class="contenedor">
+        
         <header>
             <div class="logo">
                 <h1>Antonio Alejandro Galland</h1>
                 <p>Desarrollador web</p>
             </div>
+
             <form action="">
                 <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar"> 
             </form>
@@ -27,11 +30,39 @@
                 <a href="#">Poesía</a>
                 <a href="#">Música</a>
                 <a href="#">Creaciones</a>
+                <a href="#">Registrar Visita</a>
             </div>
         </header>
-
+        
         <section class="grid" id="grid">
             <div class="item" 
+                data-categoria="trabajos" 
+                data-etiquetas="yo Antonio Galland"
+                data-descripcion="YO"
+            >
+                <div class="item-contenido">
+                    <img src="img/Antonio.png" alt="trabajos Antonio Galland yo estudios extracto">
+                </div>
+            </div>
+            <div class="item" 
+                data-categoria="trabajos" 
+                data-etiquetas="yo Antonio Galland foto"
+                data-descripcion="YO"
+            >
+                <div class="item-contenido">
+                    <img src="img/yo.jpg" alt="trabajo yo foto Antonio Galland">
+                </div>
+            </div>                        
+            <div class="item" 
+                data-categoria="trabajos" 
+                data-etiquetas="trabajos superación propósito"
+                data-descripcion="A"
+            >
+                <div class="item-contenido">
+                    <img src="img/photo_2021-10-20_17-21-03.png" alt="propósito meta superación">
+                </div>
+            </div>
+                  <div class="item" 
                  data-categoria="trabajos"
                  data-etiquetas="trabajos experiencia"
                  data-descripcion="1."
@@ -184,13 +215,59 @@
                  data-descripcion="17."
             >
                 <div class="item-contenido">
-                    <video width="100%" height="auto" controls>
+                    <video controls>
                         <source src="media/A-mi-niña-en-la-distancia.mp4" type="video/mp4" alt="video poemas">
                         Your browser does not support the video tag.
                     </audio> 
                 </div>
             </div>
+            <div class="item" 
+                data-categoria="poesía" 
+                data-etiquetas="poesía literatura libro portada "
+                data-descripcion="18."
+            >
+                <div class="item-contenido">
+                    <img src="img/Amanecer_lírico_frente_y_dorsojpg.png" alt="Libro de selección de poemas">
+                </div>
+            </div>
+               
         </section>
+
+        <section class="overlay" id="overlay">
+            <div class="contenedor-img">
+                <button id="btn-cerrar-popup"><i class="fa-solid fa-xmark"></i></button>
+                <img src="", alt="">
+            </div>
+            <p class="descripcion"> </p>
+        </section>
+
+        <footer class="=contenedor">
+            <div class="redes-sociales">
+                <div class="contenedor-icono">
+                    <a href="https://twitter.com/aagalland" target="_blank" class="twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="https://www.facebook.com/antonioalejandro.galland/" target="_blank" class="facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="https://www.instagram.com/antonio_galland/" target="_blank" class="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="https://alquimiadelamor.blogspot.com/" target="_blank" class="blog">
+                        <i class="fa-brands fa-blogger"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="creado-por">
+                <p>Sitio diseñado por <a href="#">Antonio A. Galland</a> - <a href="https://alquimiadelamor.blogspot.com/">Alquimia del Amor y de los Sueños</a> </p>
+            </div>
+        </footer>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
